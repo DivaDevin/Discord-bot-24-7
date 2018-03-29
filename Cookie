@@ -1,3 +1,5 @@
+
+
 import discord
 
 from discord.ext.commands import Bot
@@ -25,3 +27,6 @@ async def on_message(message):
     if message.content == "cookie":
 
         await client.send_message(message.channel, ":cookie:")
+
+
+client.run('NDI4NDY1Njk2OTI2ODU5MjY0.DZzfqQ.tIrvNDqA2O3W8PHieUhKooItw-E') 
