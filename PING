@@ -1,0 +1,23 @@
+
+import discord
+
+from discord.ext.commands import Bot
+
+from discord.ext import commands
+
+import asyncio
+
+import time
+ 
+import random
+
+@client.event
+
+async def on_message(message):
+
+    if message.content.upper().startswith('!PING'):
+
+        userID = message.author.id
+
+        await client.send_message(message.channel, "<@%s> Pong!" % (userID))
+        client.run('NDI4NDY1Njk2OTI2ODU5MjY0.DZzfqQ.tIrvNDqA2O3W8PHieUhKooItw-E') 
